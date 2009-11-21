@@ -20,7 +20,7 @@ public class MobileTwinCities extends TabActivity {
 		
 		mTabHost = getTabHost();
 		
-		this.loadData();
+		//this.loadData();
 		
 		Intent websiteItent = new Intent(this, Website.class);
 		websiteItent.putExtra("link", "http://tc-gtug.org/");
